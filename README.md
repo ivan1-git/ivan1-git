@@ -14,14 +14,23 @@ Un checkout con una pasarela de pago, un ERP con una tienda en línea, un pedido
 ### Proyectos
 
 Son proyectos chicos, pensados para clonarse y correr en un par de minutos sin cuentas ni
-credenciales. Cada uno trae pruebas, CI y un README que explica las decisiones que tomé.
+credenciales. Cada uno trae pruebas y un README que explica las decisiones que tomé.
 
-| Proyecto | Qué hace | Stack |
-| --- | --- | --- |
-| [**vtex-payment-connector**](https://github.com/ivan1-git/vtex-payment-connector) | Conector de pagos que implementa el Payment Provider Protocol de VTEX: autorizar, capturar, reembolsar, cancelar y pagos asíncronos con callback. | Java 17 · Spring Boot · JPA · Docker |
-| [**vtex-order-shipping-hook**](https://github.com/ivan1-git/vtex-order-shipping-hook) | Escucha los avisos de pedidos de VTEX, genera la guía con la paquetería y regresa el número de rastreo a la tienda. Con reintentos y sin duplicados. | Node.js · TypeScript · Fastify |
-| [**vtex-io-free-shipping-bar**](https://github.com/ivan1-git/vtex-io-free-shipping-bar) | Bloque de VTEX IO para el storefront: "te faltan $X para envío gratis". Configurable desde el Site Editor, traducido y con playground local. | VTEX IO · React · TypeScript |
-| [**vtex-price-stock-sync**](https://github.com/ivan1-git/vtex-price-stock-sync) | Sincroniza precios e inventario de un ERP hacia VTEX. Simula antes de aplicar y frena las bajadas de precio sospechosas. | Python · sin dependencias |
+**[vtex-payment-connector](https://github.com/ivan1-git/vtex-payment-connector)** · Java 17 · Spring Boot · JPA\
+Conector de pagos que implementa el Payment Provider Protocol de VTEX: autorizar, capturar,
+reembolsar, cancelar y pagos asíncronos con callback.
+
+**[vtex-order-shipping-hook](https://github.com/ivan1-git/vtex-order-shipping-hook)** · Node.js · TypeScript · Fastify\
+Escucha los avisos de pedidos de VTEX, genera la guía con la paquetería y regresa el número
+de rastreo a la tienda. Con reintentos y sin duplicados.
+
+**[vtex-io-free-shipping-bar](https://github.com/ivan1-git/vtex-io-free-shipping-bar)** · VTEX IO · React · TypeScript\
+Bloque de storefront: "te faltan $X para envío gratis". Configurable desde el Site Editor,
+traducido y con un playground para verlo sin cuenta de VTEX.
+
+**[vtex-price-stock-sync](https://github.com/ivan1-git/vtex-price-stock-sync)** · Python sin dependencias\
+Sincroniza precios e inventario de un ERP hacia VTEX. Simula antes de aplicar y frena las
+bajadas de precio sospechosas.
 
 ---
 
