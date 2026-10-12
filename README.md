@@ -43,7 +43,7 @@ bajadas de precio sospechosas.
 
 ### Dónde he trabajado
 
-- **HITSS** · Full Stack Developer · 2025 – hoy\
+- **HITSS** · Full Stack Developer · 2025\
   APIs REST y servicios backend en Java y Spring Boot, integraciones con servicios internos y externos.
 - **Corporativo MOBO** · Full Stack Developer · 2024 – 2025\
   Componentes de storefront en VTEX IO y React, servicios en Node.js y herramientas internas con Python y Django.
